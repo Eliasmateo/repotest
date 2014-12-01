@@ -1,60 +1,93 @@
 h1 
-{color:blue;
-    font-size: 35px;
-    font-family: "Ubuntu";
+{
+color:white;
+font-size: 35px;
+font-family: "ubuntu";
 texte-decoration: underline;
-    text-align: center
-
+underline color: white;
+text-align: center
 }
+
 p 
-{ color:blue;
-    font-family: sans-serif;
-    text-align: left;
+{ 
+color:white;
+font-family: "ubuntu";
+text-align: left;
 font-size: 20px;
-
-
-
 }
 
 h2 
-{ color: blue;
-    text-decoration: underline}
-h1,h3,li,p { color: blue
+{ 
+color: white;
+font-family: "ubuntu";
+text-decoration: underline}
+h1,h3,li,p { color: white;
 }
 
 .image-small
 {
-    imge-align: center;
-    width: 500px;
+imge-align: center;
+width: 500px;
 }
 
-header {
-    background-color: red;
-    padding-top: 10px;
-    padding-bottom: 10px;
+header 
+{
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 header a
-{ color: white;
-       margin-left: 30 px;
-    margin-right: 30 px;
+{     
+color: black;
+margin-left: 30 px;
+margin-right: 30 px;
     
 }
 
 header li
 {
-list-style: none;
+color: black;
+list-style: georgian;
 display: inline-block;
 margin-left: 25 px;
 margin-right: 25 px;
-    width: 24%;
-    text-align: center;
+width: 24%;
+text-align: center;
 }
  /* broder: 1px solid red; */
 
-body {
+body 
+{
 margin: 0
 }
-body {
-background-color: black
+
+body 
+{
+background-color: #ff0000
+}
+.raoul 
+{ 
+color: white;
+}
+
+li{
+font-family: "ubuntu";
+font-size: 20px;
+}
+
+footer
+{
+background-color: white;
+padding-top: auto;
+padding-bottom: auto;
+position:fixed;
+    width: 100%;
+padding-top:20px;
+bottom:0px;
+}
+
+h3{
+font-family: "Ubuntu";
+    text-align: center
 }
