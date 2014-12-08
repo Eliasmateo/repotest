@@ -16,6 +16,12 @@ text-align: left;
 font-size: 20px;
 }
 
+li
+{
+font-family: "ubuntu";
+texte-size-ajust: auto;
+}
+
 h2 
 { 
 color: white;
@@ -27,7 +33,8 @@ h1,h3,li,p { color: white;
 .image-small
 {
 imge-align: center;
-width: 500px;
+width: 600px;
+    height: 400px;
 }
 
 header 
@@ -35,6 +42,7 @@ header
 background-color: white;
 padding-top: 10px;
 padding-bottom: 10px;
+    transform-origin: center;
 }
 
 header a
@@ -64,7 +72,7 @@ margin: 0
 
 body 
 {
-background-color: #ff0000
+background-color: #ff3333
 }
 .raoul 
 { 
@@ -83,11 +91,18 @@ padding-top: auto;
 padding-bottom: auto;
 position:fixed;
     width: 100%;
-padding-top:20px;
+padding-top:10px;
 bottom:0px;
 }
 
 h3{
 font-family: "Ubuntu";
-    text-align: center
+    text-align: center;
+transition-duration: .5s, .3s;
+transition-timing-function: linear, ease-out;
+}
+image-big 
+{
+margin-left: 25 px;
+margin-right: 25 px;
 }
