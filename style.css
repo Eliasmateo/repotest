@@ -28,13 +28,13 @@ color: white;
 font-family: "ubuntu";
 text-decoration: underline}
 h1,h3,li,p { color: white;
+
 }
 
 .image-small
 {
 imge-align: center;
 width: 600px;
-    height: 400px;
 }
 
 header 
@@ -95,14 +95,13 @@ padding-top:10px;
 bottom:0px;
 }
 
-h3{
+.h3{
 font-family: "Ubuntu";
     text-align: center;
-transition-duration: .5s, .3s;
-transition-timing-function: linear, ease-out;
+
+    
 }
-image-big 
+.image-medium
 {
-margin-left: 25 px;
-margin-right: 25 px;
+width: 150px;
 }
